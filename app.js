@@ -7,8 +7,6 @@ document.querySelector("#timeout").addEventListener("click", () => {
     },2000)
 })
 
-
-
 document.querySelector("#interval-start").addEventListener("click", () => {
     let timer = 0;
     let id = setInterval(() => {
